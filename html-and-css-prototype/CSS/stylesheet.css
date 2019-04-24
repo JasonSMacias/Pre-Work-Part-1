@@ -40,16 +40,23 @@ h1 {
 */
 
 /* Your CSS code goes here */
+aside {
+  background-color: #424242;
+  color: white;
+  border-radius: 3px;
+  padding: 14px;
+}
 .container2 {
   margin: 2em auto;
 	width: 263px;
   height: 304px;
   /* padding: 1px 20px 1px 20px; */
 	text-align: center;
-  background-color: green;
+  background-color: #fafafa;
+  font-size: 0.9em;
 }
 
-.button {
+.button1 {
   background-color: red;
   border: none;
   color: gray;
@@ -58,4 +65,57 @@ h1 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.button2 {
+  background-color: red;
+  border-style: solid;
+  border-width: 1px;
+  color: gray;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.textbox {
+  font-size: 16px;
+  border: none;
+  /* display: inline; */
+  width: 50px;
+}
+
+.textbox-container {
+  display: inline;
+}
+
+.meter {
+  height: 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.border {
+  border-style: solid;
+  border-color: #dcdcdc;
+  border-width: 1px;
+  border: 
+}
+
+.days {
+  color: #f15e33;
+}
+
+.full {
+  background-color: #f15e33;
+  width: 200px;
+}
+
+.empty {
+  background-color: #fafafa;
+  width: auto;
 }
