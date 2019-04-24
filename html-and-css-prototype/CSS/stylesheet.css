@@ -71,7 +71,8 @@ p {
 
 .button1 {
   background-color: #1CBC2C;
-  border: none;
+  border: solid;
+  border-color: #1CBC2C;
   color: #fafafa;
   padding: 11px;
   text-align: center;
@@ -104,7 +105,7 @@ label {
   font-size: 16px;
   border: none;
   /* display: inline; */
-  width: 30px;
+  width: 75px;
   font-weight: bold;
   
 }
@@ -183,4 +184,14 @@ svg {
   position: relative;
   left: 93px;
 
+}
+
+.button1:hover {
+  background-color: #fafafa;
+  color: #1CBC2C;
+}
+
+.button2:hover {
+  color: #eaeaea;
+  background-color: #777777;
 }
