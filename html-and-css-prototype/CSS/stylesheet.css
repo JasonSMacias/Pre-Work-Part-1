@@ -40,3 +40,11 @@ h1 {
 */
 
 /* Your CSS code goes here */
+.container2 {
+  margin: 2em auto;
+	width: 263px;
+  height: 304px;
+  /* padding: 1px 20px 1px 20px; */
+	text-align: center;
+  background-color: green;
+}
