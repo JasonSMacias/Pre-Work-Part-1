@@ -48,3 +48,14 @@ h1 {
 	text-align: center;
   background-color: green;
 }
+
+.button {
+  background-color: red;
+  border: none;
+  color: gray;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
